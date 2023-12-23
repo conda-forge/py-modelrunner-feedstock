@@ -1,5 +1,5 @@
 {% set name = "py-modelrunner" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py-modelrunner-{{ version }}.tar.gz
-  sha256: 13be52f2d410961b0fdd4729d088340282bca085e36b5427d735e7debd2fc312
+  sha256: 444334e5b9d27160b1fba7f444537eef26c129b453e86bce859efcbf0ca9fbc7
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.8,<3.12
     - pip
     - setuptools_scm
   run:
