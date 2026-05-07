@@ -29,7 +29,7 @@ requirements:
     - pyyaml >=5
     - tqdm >=4.45
     - zarr >=2,<3
-    - numcodecs >=0.10
+    - numcodecs >=0.16
 
 test:
   requires:
