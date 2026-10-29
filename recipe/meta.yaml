@@ -1,5 +1,5 @@
 {% set name = "py-modelrunner" %}
-{% set version = "0.20.2" %}
+{% set version = "0.20.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a1e40ba28e1395973397b5e64f2630abc9c42946377090f62afd76357d1e1a72
+  sha256: 2ab2739d392caaa1d40673b8887fe251c12afabc5353e6640a3a54427533b159
 
 build:
   noarch: python
